@@ -6,7 +6,6 @@
         "ie": 9,
         "uglify": false
       }
-    }],
-    "babel-preset-minify"
+    }]
   ]
 }

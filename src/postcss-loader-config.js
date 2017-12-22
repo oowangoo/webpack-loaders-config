@@ -1,6 +1,7 @@
 export const postcss = () => {
   return {
-    loader: 'postcss-loader'
+    loader: 'postcss-loader',
+    options: {}
   }
 }
 
