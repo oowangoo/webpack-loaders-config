@@ -1,0 +1,7 @@
+export { babel } from './babel-loader-config'
+export { css } from './css-loader-config'
+export { eslint } from './eslint-loader.config'
+export { postcss } from './postcss-loader-config'
+export { sass } from './sass-loader-config'
+export { style } from './style-loader-config'
+export { vue } from './vue-loader-config'

@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["babel-preset-env", {
+      "modules": false,
+      "targets": {
+        "ie": 9,
+        "uglify": false
+      }
+    }],
+    "babel-preset-minify"
+  ]
+}
