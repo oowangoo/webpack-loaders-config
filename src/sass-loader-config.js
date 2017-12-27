@@ -1,9 +1,7 @@
-export const sass = () => {
-  return {
-    loader: 'sass-loader',
-    options: {
-      outputStyle: 'expanded'
-    }
+export const sass = {
+  loader: 'sass-loader',
+  options: {
+    outputStyle: 'expanded'
   }
 }
 

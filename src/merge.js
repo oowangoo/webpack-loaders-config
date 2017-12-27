@@ -1,4 +1,4 @@
-export const merge = (base = {}, config = {}) => {
+export const merge = (defaultConfig = {}, config = {}) => {
   const keys = Object.keys(config)
 
   return keys.reduce((target, key) => {
@@ -10,7 +10,7 @@ export const merge = (base = {}, config = {}) => {
 
     target[key] = value
     return target
-  }, Object.assign({}, base))
+  }, Object.assign({}, defaultConfig))
 }
 
 export default merge
